@@ -2,7 +2,12 @@ import streamlit as st
 import openai 
 import pandas as pd
 
-st.set_page_config(layout="wide")
+st.set_page_config(
+    page_title="Skilljourneys ChatGPT",  # Sets the browser tab's title
+    page_icon="favicon.ico",        # Sets a browser icon (favicon), here using an emoji
+    layout="wide",               # Optional: use "wide" or "centered", the default is "centered"
+    initial_sidebar_state="expanded"  # Optional: use "auto", "expanded", or "collapsed"
+)
 
 # Display the image at the top of the page
 st.image("https://lwfiles.mycourse.app/65a6a0bb6e5c564383a8b347-public/05af5b82d40b3f7c2da2b6c56c24bdbc.png", width=500)
