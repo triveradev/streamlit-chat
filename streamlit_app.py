@@ -12,9 +12,9 @@ st.set_page_config(
 # Display the image at the top of the page
 st.image("https://lwfiles.mycourse.app/65a6a0bb6e5c564383a8b347-public/05af5b82d40b3f7c2da2b6c56c24bdbc.png", width=500)
 # Set up the title of the app
-st.title("Skilljourneys ChatGPT")
+st.title(":rainbow[Skilljourneys ChatGPT]")
 # Link to Trivera Tech website
-st.markdown("For more information, visit [Triveratech](https://www.triveratech.com).")
+st.markdown(":blue[For more information, visit [Triveratech](https://www.triveratech.com).]")
 
 # Get OpenAI API key
 openai_api_key = st.sidebar.text_input('OpenAI API Key', type="password")
